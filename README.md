@@ -4,6 +4,9 @@
 ## Section 1: Introduction
 This project details the deployment of an end-to-end autonomous robot utilizing an autonomous software stack. The system architecture features an onboard computer serving as the central processing unit for the autonomous functionalities. Communication are facilitated through a Controller Area Network (CAN) bus cable which is further connected to the motor ,forming a complete autonomous robotic system. We have to intoduce a CAN to ROS interface because the signals(steering angle, velocity) are CAN messages that  we send to the Robot, and the robot understands it only in ROS framework.
 
+![image](https://github.com/user-attachments/assets/82e60d01-fb16-40c1-a2a4-ee9d4554afa7)
+
+
 ### Section 2: Prerequisite
 
 
